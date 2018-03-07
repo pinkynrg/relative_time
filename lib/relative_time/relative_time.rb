@@ -4,7 +4,7 @@ class RelativeTime
 	VALID_ROUND_SIGNS = ["/","|"]
 	VALID_SUBJECTS = { m: 'minute', h: 'hour', d: 'day', w: 'week', M: 'month', y: 'year'}
 
-	def parse(str)
+	def self.parse(str)
 		result = false
 		# checking string and putting result into groups
 		temp = str.match(/^now(?:([\+-]{1})(\d+)([m|h|d|w|M|y]{1}))?(?:([\/\|]){1}([m|h|d|w|M|y]{1}))?$/)
