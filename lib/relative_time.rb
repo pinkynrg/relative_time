@@ -34,7 +34,7 @@ class RelativeTime
 	end
 
 	def to_graphite
-		@result ? @result.strftime("%H%M_%Y%m%d") : false
+		@result ? @result.strftime("%H:%M_%Y%m%d") : false
 	end
 
 	def to_relative_time
