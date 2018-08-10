@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RelativeTime::VERSION
   s.authors     = ["pinkynrg"]
   s.email       = ["biggyapple@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RelativeTime."
-  s.description = "TODO: Description of RelativeTime."
+  s.homepage    = "https://github.com/pinkynrg/relative_time"
+  s.summary     = "This gems allow to handle relative times."
+  s.description = "This gems allow to handle relative times like graphite/grafana do."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
